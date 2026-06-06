@@ -113,15 +113,18 @@ Mỗi mẫu âm thanh có thời lượng khoảng 2 giây.
 - bichnguyen
 - docto
 - trangke
+- trangtruoc
 - noise
 
 ### Giải thích các nhãn dữ liệu (Labels)
 
 | Label      | Ý nghĩa                                                |
 | ---------- | ------------------------------------------------------ |
+| bichnguyen | Từ khóa kích hoạt hệ thống hoặc nhận diện người dùng   |
 | docto      | Lệnh yêu cầu ứng dụng đọc nội dung thành tiếng         |
 | trangke    | Lệnh chuyển sang trang tiếp theo                       |
 | trangtruoc | Lệnh quay lại trang trước                              |
+| noise      | Tiếng ồn hoặc âm thanh không thuộc các lệnh điều khiển |
 
 ---
 
@@ -130,21 +133,25 @@ Mỗi mẫu âm thanh có thời lượng khoảng 2 giây.
 ### Phần mềm
 
 - Edge Impulse Studio
+- Python 3.x
 - Google Chrome
 - Microsoft Edge
 
+### Phần cứng
 
 - Máy tính có microphone
 - Kết nối Internet
 
 ---
 
+## Hướng dẫn cài đặt
 
 ### Bước 1: Clone repository
 
 ```bash
 git clone https://github.com/tobichnguyen0903/mangcambien-cuoiki-ToBichNguyen.git
 ```
+
 ### Bước 2: Di chuyển vào thư mục dự án
 
 ```bash
@@ -153,6 +160,7 @@ cd mangcambien-cuoiky-ToBichNguyen
 
 ---
 
+## Hướng dẫn chạy mô hình MFE
 
 ### Chạy trên Edge Impulse
 
@@ -244,11 +252,4 @@ https://studio.edgeimpulse.com/studio/1018581
 
 ## Tài liệu tham khảo
 
-- https://studio.edgeimpulse.com/public/162492/latest## Hướng dẫn chạy mô hình MFE
-
-## Hướng dẫn cài đặt
-### Phần cứng
-- Python 3.x
-| noise      | Tiếng ồn hoặc âm thanh không thuộc các lệnh điều khiển |
-| bichnguyen | Từ khóa kích hoạt hệ thống hoặc nhận diện người dùng   |
-
+- https://studio.edgeimpulse.com/public/162492/latest
