@@ -182,7 +182,7 @@ python server.py
 Mở trình duyệt:
 
 ```text
-http://localhost:8080
+http://localhost:8082
 ```
 
 ---
@@ -209,7 +209,7 @@ python server.py
 Mở trình duyệt:
 
 ```text
-http://localhost:8080
+http://localhost:8082
 ```
 
 ---
